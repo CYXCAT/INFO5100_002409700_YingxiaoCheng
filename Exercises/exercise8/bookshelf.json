@@ -1,0 +1,22 @@
+{
+  "BookShelf": [
+    {
+      "title": "Dream of the Red Chamber",
+      "publishedYear": 1791,
+      "numberOfPages": 992,
+      "authors": ["Cao Xueqin", "Gao E"]
+    },
+    {
+      "title": "All Men Are Brothers",
+      "publishedYear": 1524,
+      "numberOfPages": 848,
+      "authors": ["Shi Naian"]
+    },
+    {
+      "title": "The Golden Lotus",
+      "publishedYear": 1610,
+      "numberOfPages": 1430,
+      "authors": ["Lanling Xiaoxiao Sheng"]
+    }
+  ]
+}

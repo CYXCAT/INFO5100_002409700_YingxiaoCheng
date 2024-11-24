@@ -1,0 +1,27 @@
+<BookShelf>
+    <book>
+        <title>Dream of the Red Chamber</title>
+        <publishedYear>1791</publishedYear>
+        <numberOfPages>992</numberOfPages>
+        <authors>
+            <author>Cao Xueqin</author>
+            <author>Gao E</author>
+        </authors>
+    </book>
+    <book>
+        <title>All Men Are Brothers</title>
+        <publishedYear>1524</publishedYear>
+        <numberOfPages>848</numberOfPages>
+        <authors>
+            <author>Shi Naian</author>
+        </authors>
+    </book>
+    <book>
+        <title>The Golden Lotus</title>
+        <publishedYear>1610</publishedYear>
+        <numberOfPages>1430</numberOfPages>
+        <authors>
+            <author>Lanling Xiaoxiao Sheng</author>
+        </authors>
+    </book>
+</BookShelf>
