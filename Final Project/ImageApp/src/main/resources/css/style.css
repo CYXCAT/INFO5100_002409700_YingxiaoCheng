@@ -1,0 +1,108 @@
+/* font and background */
+* {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 13px;
+    -fx-base: #ffffff; /* white */
+}
+
+/* root */
+.root {
+    -fx-background-color: #f4f4f4; /* grey */
+    -fx-padding: 20px;
+}
+
+/* button */
+.button {
+    -fx-background-color: #cccccc; /* button background color */
+    -fx-text-fill: black; /* text color */
+    -fx-padding: 10px 20px;
+    -fx-font-size: 14px;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.5, 0, 2);
+}
+
+.button:hover {
+    -fx-background-color: #999999; /* hovor button color */
+}
+
+/* combo box */
+.combo-box, .text-field {
+    -fx-background-color: #ffffff; /* white */
+    -fx-border-radius: 5px;
+    -fx-border-color: #cccccc; /* grey */
+    -fx-border-width: 1px;
+    -fx-padding: 8px;
+    -fx-font-size: 14px;
+}
+
+.combo-box:hover, .text-field:hover {
+    -fx-border-color: #007bff; /* hover */
+}
+
+/* label */
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333333; /* dark grey */
+    -fx-padding: 5px;
+}
+
+
+/* image */
+.image-view {
+    -fx-border-radius: 5px;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-padding: 5px;
+}
+
+/* *box */
+.vbox, .hbox {
+    -fx-spacing: 15px;
+    -fx-padding: 15px;
+}
+
+.combo-box, .text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-radius: 5px;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-padding: 8px;
+    -fx-font-size: 14px;
+}
+
+.combo-box:hover, .text-field:hover {
+    -fx-border-color: #007bff;
+}
+
+.vbox {
+    -fx-alignment: center;
+}
+
+.hbox {
+    -fx-alignment: center;
+}
+
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-padding: 5px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #007bff;
+}
+
+.table-view .column-header {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell:filled:hover {
+    -fx-background-color: #f1f1f1;
+}
+
+.vbox, .hbox {
+    -fx-spacing: 20px;
+    -fx-padding: 20px;
+}
